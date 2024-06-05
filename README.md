@@ -40,3 +40,4 @@ Développer une application qui utilise l'API PokéAPI pour afficher des informa
 * Ce test évalue votre capacité à utiliser une API externe, à manipuler des données JSON et à créer une interface utilisateur fonctionnelle.
 * L'accent est mis sur la compréhension de l'API PokéAPI et la qualité de l'implémentation.
 * N'hésitez pas à explorer les différentes fonctionnalités offertes par l'API PokéAPI pour enrichir votre application.
+* Veillez à ce que le projet soit une démonstration adéquate de vos compétences techniques en y intégrant toutes les fonctionnalités que vous souhaitez tel que un design d'interface graphique, des test d'intégrations etc..
