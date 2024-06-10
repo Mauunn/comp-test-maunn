@@ -24,11 +24,11 @@ Développer une application qui utilise l'API PokéAPI pour afficher des informa
 
 ### 2. Configuration:
 
-*   1. Ouvrez le fichier `index.html` dans votre navigateur.
+*   Aucune configuration en plus n'est nécessaire.
 
 ### 3. Lancement:
 
-* *Votre explication ici*
+*   1. Ouvrez le fichier `index.html` dans votre navigateur.
 
 ## Fonctionnalités (Suggestions)
 
