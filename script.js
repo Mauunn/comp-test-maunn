@@ -16,11 +16,35 @@ async function fetchPokemonInfo() {
 
 function displayPokemonInfo(pokemon) {
     const pokemonInfo = `
-        <h2>${pokemon.name}</h2>
-        <p><strong>ID:</strong> ${pokemon.id}</p>
-        <p><strong>Height:</strong> ${pokemon.height}</p>
-        <p><strong>Weight:</strong> ${pokemon.weight}</p>
-        <img src="${pokemon.sprites.front_default}" alt="${pokemon.name}">
+        <div class="pokemon-container">
+            <h2>${pokemon.name}</h2>
+            <div class="pokemon-details">
+                <div class="pokemon-detail-box box-red-shadow">
+                    <p><strong>ID</strong><br>${pokemon.id}</p>
+                </div>
+                <div class="pokemon-detail-box box-red-shadow">
+                    <p><strong>Height</strong><br>${pokemon.height}</p>
+                </div>
+                <div class="pokemon-detail-box box-red-shadow">
+                    <p><strong>Weight</strong><br>${pokemon.weight}</p>
+                </div>
+                <div class="pokemon-detail-box box-red-shadow">
+                    <p><strong>Abilities</strong><br>${pokemon.abilities.map(ability => ability.ability.name).join(', ')}</p>
+                </div>
+                <div class="pokemon-detail-box box-red-shadow">
+                    <p><strong>Types</strong><br>${pokemon.types.map(type => type.type.name).join(', ')}</p>
+                </div>
+            </div>
+            <div class="pokemon-stats-container box-red-shadow">
+                <p><strong>Stats</strong></p>
+                <ul class="pokemon-stats">
+                    ${pokemon.stats.map(stat => `<li>${stat.stat.name}: ${stat.base_stat}</li>`).join('')}
+                </ul>
+            </div>
+            <div class="pokemon-image box-red-shadow">
+                <img src="${pokemon.sprites.front_default}" alt="${pokemon.name}">
+            </div>
+        </div>
     `;
     document.getElementById('pokemon-info').innerHTML = pokemonInfo;
 }
