@@ -19,11 +19,12 @@ Développer une application qui utilise l'API PokéAPI pour afficher des informa
 
 ### 1. Installation:
 
-* *Votre explication ici*
+*   1. Clonez ce dépôt sur votre machine locale.
+    2. Ouvrez le dossier du projet dans votre éditeur de code.
 
 ### 2. Configuration:
 
-* *Votre explication ici*
+*   1. Ouvrez le fichier `index.html` dans votre navigateur.
 
 ### 3. Lancement:
 
